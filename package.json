@@ -1,37 +1,34 @@
 {
-  "name": "butter-provider-vodo",
+  "name": "butter-provider-odd",
   "version": "0.1.0",
-  "description": "A Butter provider for VODO.net",
+  "description": "A Butter provider for OddNetworks v2 API",
   "main": "index.js",
   "butter": {
     "timeout": 20000,
-    "testArgs": "vodo"
+    "testArgs": "odd"
   },
   "scripts": {
     "test": "tape ./node_modules/butter-test-provider/tests/*"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/butterproviders/butter-provider-vodo.git"
+    "url": "git+https://github.com/butterproviders/butter-provider-odd.git"
   },
   "keywords": [
-    "vodo",
+    "odd",
     "butter",
     "streaming"
   ],
   "author": "Niv Sardi",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/butterproviders/butter-provider-vodo/issues"
+    "url": "https://github.com/butterproviders/butter-provider-odd/issues"
   },
-  "homepage": "https://github.com/butterproviders/butter-provider-vodo#readme",
+  "homepage": "https://github.com/butterproviders/butter-provider-odd#readme",
   "dependencies": {
-    "defer-request": "0.0.2",
-    "lodash": "^3.10.1",
-    "moment": "^2.11.1",
-    "nedb": "^1.8.0",
-    "q": "^1.4.1",
-    "request": "^2.69.0"
+    "butter-provider": "^0.4.0",
+    "debug": "^2.2.0",
+    "got": "^6.3.0"
   },
   "devDependencies": {
     "butter-test-provider": "0.0.3",
